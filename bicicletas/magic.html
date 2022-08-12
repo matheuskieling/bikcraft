@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
@@ -11,6 +12,9 @@
       href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap"
       rel="stylesheet"
     />
+    <script>
+      document.documentElement.classList.add("js");
+    </script>
   </head>
   <body id="bicicleta">
     <header class="header-bg">
@@ -41,9 +45,9 @@
 
       <div class="bicicleta container">
         <div class="bicicleta-imagens">
-          <img src="../img/bicicleta/nimbus2.jpg" alt="" />
-          <img src="../img/bicicleta/nimbus1.jpg" alt="" />
-          <img src="../img/bicicleta/nimbus3.jpg" alt="" />
+          <img src="../img/bicicleta/nimbus2.jpg" alt="Bicicleta 1" />
+          <img src="../img/bicicleta/nimbus1.jpg" alt="Bicicleta 2" />
+          <img src="../img/bicicleta/nimbus3.jpg" alt="Bicicleta 3" />
         </div>
         <div class="bicicleta-conteudo">
           <p class="font-2-l cor-5">
@@ -52,7 +56,11 @@
             velocidade.
           </p>
           <div class="bicicleta-comprar">
-            <a class="botao" href="../orcamento.html">Comprar Agora</a>
+            <a
+              class="botao"
+              href="../orcamento.html?tipo=bikcraft&produto=magic"
+              >Comprar Agora</a
+            >
             <span class="font-1-xs cor-6"
               ><img src="../img/icones/entrega.svg" alt="" />entrega em 5
               dias</span
@@ -108,9 +116,7 @@
     </main>
 
     <article class="bicicletas-lista container">
-      <h2 class="font-1-xxl">
-        escolha a sua<span class="cor-p1">.</span>
-      </h2>
+      <h2 class="font-1-xxl">escolha a sua<span class="cor-p1">.</span></h2>
       <ul>
         <li>
           <a href="./nimbus.html">
@@ -132,11 +138,20 @@
     <article class="seguro-bg">
       <div class="seguro container">
         <div class="seguro-imagem">
-          <img src="../img/fotos/seguros.jpg" alt="Pessoa parada em cima de uma bikcraft.">
+          <img
+            src="../img/fotos/seguros.jpg"
+            alt="Pessoa parada em cima de uma bikcraft."
+          />
         </div>
         <div class="seguro-conteudo">
-          <h2 class="font-1-xxl cor-0">Pedale mais tranquilo com o nosso <span class="cor-p1">seguro.</span></h2>
-          <p class="font-2-l cor-5">Inscreva-se em um dos planos do nosso seguro Bikcraft e aproveite diversos benefícios.</p>
+          <h2 class="font-1-xxl cor-0">
+            Pedale mais tranquilo com o nosso
+            <span class="cor-p1">seguro.</span>
+          </h2>
+          <p class="font-2-l cor-5">
+            Inscreva-se em um dos planos do nosso seguro Bikcraft e aproveite
+            diversos benefícios.
+          </p>
           <a class="botao" href="../seguros.html">Conheça Mais</a>
         </div>
       </div>
@@ -183,5 +198,6 @@
         </p>
       </div>
     </footer>
+    <script src="../js/script.js"></script>
   </body>
 </html>
